@@ -126,7 +126,6 @@ p{
     content: '';
     clear: both;
     display: table;
-    /* önemli ustam skill columns and clearfix */
 }
 
 .section-title h3{ 
@@ -390,7 +389,6 @@ Skills
     margin-bottom: 1.25rem;
     transition: var(--transition);
     display: block;   
-    /* span is a inline element thats why margin bottom isnt working so we do display block so that margin bottom can work */
     color: var(--clr-primary);
 }
 
@@ -406,7 +404,6 @@ Skills
 }
 
 .skill:hover .skill-icon{
-    /* as ı am hovering over skill what should happen to skill icon */
     transform: translateY(-6px);
 }
 
@@ -440,7 +437,6 @@ About
     max-height: 30rem;
     /* extra stuff */
     overflow: hidden;
-    /* ↑↑↑ tam anlayamadım bakılır sonra */
 }
 
 .about-picture{
@@ -589,7 +585,6 @@ Services
         float: left;
         width: 45%;
         margin-right: 5%;
-        /* 100% 45% 90% 5% */
     }
     
 }
@@ -598,7 +593,6 @@ Services
     .service-card {
         width: 30%;
         margin-right: 3.333%;
-        /* 100% 30% 3.333% */
     }
 }
 
